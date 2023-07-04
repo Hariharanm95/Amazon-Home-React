@@ -1,0 +1,91 @@
+.h_logo{
+    width: 100px;
+    margin-right: 20px;
+}
+
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 0px 20px;
+}
+.h_bottom{
+    background-color: #232f3e;
+}
+.h_bottom ul {
+    list-style: none;
+    padding: 5px 30px 10px 30px;
+    margin:0;
+    display: flex;
+    align-items: center;
+}
+.h_bottom ul li {
+    margin-right: 20px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+}
+.h_search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.h_search input{
+    flex: 1;
+    height: 20px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    width: 80%;
+}
+.h_searchIcon{
+    padding: 8px;
+    height: 20px;
+    background-color: #cd9042;
+}
+.h_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.h_optionone{
+    font-size: 10px;
+    color: #ffffff;
+}
+.h_optiontwo{
+    display: block;
+    font-size: 13px;
+    font-weight: 800;
+    color: #ffffff;  
+}
+.h_option{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+}
+
+.h_basket{
+    display: flex;
+    color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.h_selectLanguage{ 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.h_selectLanguage select{
+    background-color: #131921;
+    color: #ffffff; 
+    font-size: 13px;
+    font-weight: 700;
+    display: block;
+}
